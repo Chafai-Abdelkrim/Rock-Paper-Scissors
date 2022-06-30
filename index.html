@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RockPaperScissors</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+        .btn {
+            margin-top: 100px;
+            margin-bottom: 85px;
+            color: wheat;
+            background-color: black;
+            width: 15%;
+            height: 200px;
+            font-size: 180%;
+            border-radius: 8%;
+        }
+        label {
+            font-size: 100px;
+        }
+        #display {
+            margin-top: 30px;
+            font-size: 35px;
+        }
+        
+    </style>
 </head>
 <body>
+    <h1 style="text-align: center;">Rock Paper Scissors</h1>
+    <h2 style="text-align: center;">Play against a Computer</h2>
+    <div id="main">
+        <input type="button" class="btn" id="btnR" value="rock">
+        <input type="button" class="btn" id="btnP" value="paper">
+        <input type="button" class="btn" id="btnS" value="scissors"><br>
+
+        <label>You</label><label> vs </label><label>AI</label><br>
+        <label id="counterP">0</label><label> : </label><label id="counterC">0</label>
+
+        <div id="display">
+        
+        </div>
+    </div>
+    
+    
+
     <script src="script.js"></script>
 </body>
 </html>
